@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Diagnostics;
+using System.Collections.Generic;
 
 namespace webapp.Pages
 {
@@ -21,6 +22,7 @@ namespace webapp.Pages
 
         public void OnGet()
         {
+            Console.Out.WriteLine("Hello Error!!");
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
         }
     }

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Diagnostics;
-using System.Colletions.Generic;
+using System.Collections.Generic;
 
 namespace webapp.Pages
 {

@@ -21,6 +21,7 @@ namespace webapp.Pages
 
         public void OnGet()
         {
+            Console.Out.WriteLine("Hello Error!!");
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
         }
     }
